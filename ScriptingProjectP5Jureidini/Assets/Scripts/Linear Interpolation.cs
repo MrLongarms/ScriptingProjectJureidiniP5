@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LinearInterpolation : MonoBehaviour
-{/
+{/*
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +17,13 @@ public class LinearInterpolation : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+    
     {
-        //colours are represented by 4 floats representing red, blue, green and alpha. When using Lerp, these floats are interpolated.
+        //colours are represented by 4 floats representing red, blue, green and alpha.
+        //When using Lerp, these floats are interpolated.
         
         Light.intensity = Math.Lerp(light.intensity, 8f, 0.5f
     }
-
-
-
+    //this results in change to intensity would happen per second instead of per frame.
+/*
 }
