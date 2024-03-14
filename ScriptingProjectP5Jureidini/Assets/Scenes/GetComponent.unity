@@ -133,6 +133,8 @@ GameObject:
   m_Component:
   - component: {fileID: 87569932}
   - component: {fileID: 87569933}
+  - component: {fileID: 87569935}
+  - component: {fileID: 87569934}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -167,6 +169,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1aad37d814b6c1c4bad677bfce7b9e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherGameObject: {fileID: 0}
+--- !u!114 &87569934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87569931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4763f8225aac7747bff96d9f6f5bee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberOfPlayerDeaths: 3
+--- !u!114 &87569935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87569931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b5552f7e619f447b8afe789d943361, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerScore: 9001
 --- !u!1 &459146209
 GameObject:
   m_ObjectHideFlags: 0
