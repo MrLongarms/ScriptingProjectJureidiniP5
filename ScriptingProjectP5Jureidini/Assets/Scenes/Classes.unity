@@ -137,6 +137,8 @@ GameObject:
   - component: {fileID: 21090734}
   - component: {fileID: 21090733}
   - component: {fileID: 21090738}
+  - component: {fileID: 21090740}
+  - component: {fileID: 21090739}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -151,7 +153,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 21090732}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 54d82a4cc089f474e9916e494f7fb06c, type: 3}
   m_Name: 
@@ -259,6 +261,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9ad78056fdbde4ba8e85928b90c670, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &21090739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21090732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf121973159ffd6449069376f8ff1c61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 0}
+  firePosition: {fileID: 0}
+  bulletSpeed: 0
+--- !u!114 &21090740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21090732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389def803b1a1474c8f915ee0085f64a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  turnSpeed: 15
 --- !u!1 &284932902
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +503,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 503538558}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1.6704947, y: -2.9557123, z: 11.424551}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
