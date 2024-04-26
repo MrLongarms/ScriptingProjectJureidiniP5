@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 12893251}
   - component: {fileID: 12893250}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Player1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,10 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b907660bd9072704c9bf6e6e37053c0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  players:
-  - {fileID: 669094322}
-  - {fileID: 1689810317}
-  - {fileID: 12893249}
+  players: []
 --- !u!4 &56988213
 Transform:
   m_ObjectHideFlags: 0
@@ -289,7 +286,7 @@ GameObject:
   - component: {fileID: 669094324}
   - component: {fileID: 669094323}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Player2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -394,7 +391,7 @@ GameObject:
   - component: {fileID: 1689810319}
   - component: {fileID: 1689810318}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Player3
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -678,7 +675,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 1890415314}
   - {fileID: 1876110725}
+  - {fileID: 12893253}
   - {fileID: 669094326}
   - {fileID: 1689810321}
-  - {fileID: 12893253}
   - {fileID: 56988213}
